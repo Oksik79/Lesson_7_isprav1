@@ -1,0 +1,154 @@
+@import "null.css";
+
+@import url(https://fonts.googleapis.com/css?family=Pacifico:regular&display=swap);
+
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:regular,700&display=swap);
+
+
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+
+.conteiner {
+	padding: 20px;
+	font-size: 25px;
+	max-width: 100%;
+	font-family: "Amatic SC", cursive;
+	font-weight: 400;
+	line-height: 35px;
+	text-align: justify;
+	background-color : rgba(229, 247, 241, 0.952) ;
+	margin: 0 auto 30px;
+}
+
+h1 {
+	font-size: 45px;
+	color: rgb(5, 5, 160);
+	font-family: "Pacifico", cursive ;
+	text-align: center;
+	text-shadow: 10px 7px 10px rgb(255, 0, 170);
+	margin-bottom: 40px;
+}
+
+
+.text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8 {
+	margin-bottom:20px;
+}
+
+.text1, .text7, .text8 {
+	text-indent: 50px;
+}
+
+.ris {
+	margin-bottom: 25px;
+}
+
+.ris1, .ris2, .ris3 {
+	width: 300px;
+}
+
+.ris1 {
+	border-radius: 30px ;
+	border: 5px dashed red;
+	padding: 10px;
+}
+
+
+.taina {
+	color: red;
+	font-family: "Amatic SC", cursive;
+	font-weight: 700;
+	text-shadow: 0 0 20px rgb(68, 2, 48);
+}
+
+.usl {
+	border-bottom: 6px dotted rgb(245, 210, 10);
+}
+
+
+.text2 {
+	text-align: right;
+	padding: 100px 0 0 0;
+	min-height: 200px;
+	background-image: url('../img/Pepsi_logo1.jpg')
+}
+
+.text3 {
+	text-transform: uppercase ;
+	text-align: center;
+	padding: 10% 10%;
+	max-height: 100px;
+	background: rgb(22,9,240);
+	background: radial-gradient(circle, rgba(22,9,240,0.9184515449438202) 7%, rgba(77,237,29,0.7651435574229692) 24%, rgba(255,22,0,0.8341818820224719) 100%);
+	border-radius: 0 40px 0 40px;
+}
+
+.text4 {
+	min-height: 150px;
+	background: url('../img/Pepsi_logo1.jpg') 0 0/auto 100% no-repeat;
+	padding: 50px 0 0 200px;
+}
+
+.text5 {
+	min-height: 200px;
+	background: url('../img/Pepsi_logo1.jpg') 100px 200px no-repeat fixed;
+	padding: 75px 0 0 350px;
+}
+
+.text6 {
+	min-height: 120px;
+	text-align: center;
+	text-shadow: 0 0 10px rgb(3, 192, 13);
+	background: url('../img/Pepsi_logo1.jpg') 0 0 repeat local;
+	padding: 60px 0 0 0;
+	box-shadow: 10px 10px 10px rgb(169, 3, 211);
+	border-radius: 40px;
+}
+
+.text7 {
+	min-height: 200px;
+	max-width: 700px;
+	border: 2px solid rebeccapurple;
+	background: url('../img/Pepsi_logo1.jpg') 560px 80px/100px no-repeat, url('../img/Pepsi_logo.png') 50%/cover no-repeat;
+}
+
+.ris2 {
+	outline: 10px solid rgb(167, 7, 241);
+	border-radius: 0 100px 0 100px;
+}
+
+.text8 {
+	max-width: 1000px;
+	text-align: center;
+	border: 5px solid rgb(38, 0, 255);
+	border-radius: 20px;
+	box-shadow: -10px 10px 10px #000;
+	background-color: rgba(235, 252, 2, 0.63);
+}
+
+.ris3 {
+	border-radius: 50%;
+	border: 5px dotted #000;
+	padding: 15px;
+	background: rgb(221, 16, 16);
+}
+
+.link {
+	display: inline-block;
+	font-family: "Amatic SC", cursive;
+	font-weight: 700;
+	border: 3px solid #000;
+	border-radius: 30px;
+	padding: 10px;
+	box-shadow: 0 0 10px rgb(1, 12, 112);
+}
+
+footer {
+	color: rgb(167, 7, 241);
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 40px;
+	text-align: center;
+}
